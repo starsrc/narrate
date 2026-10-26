@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" fill="none" role="img" aria-labelledby="title">
+  <title id="title">Narrate logo</title>
+  <defs>
+    <linearGradient id="bg-grad" x1="24" y1="24" x2="232" y2="232" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#1E293B"/>
+    </linearGradient>
+    <linearGradient id="accent-grad" x1="56" y1="64" x2="200" y2="192" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#6366F1"/>
+    </linearGradient>
+  </defs>
+  <!-- Outer rounded container with 10% safe margin (24px) -->
+  <rect x="24" y="24" width="208" height="208" rx="48" fill="url(#bg-grad)" stroke="#334155" stroke-width="4"/>
+  <!-- Step-by-step timeline rail -->
+  <path d="M82 88V168" stroke="#475569" stroke-width="6" stroke-linecap="round" stroke-dasharray="10 10"/>
+  <!-- Step 1 node + speech pulse -->
+  <circle cx="82" cy="88" r="11" fill="#38BDF8"/>
+  <rect x="108" y="79" width="76" height="18" rx="9" fill="url(#accent-grad)"/>
+  <!-- Step 2 node + speech pulse -->
+  <circle cx="82" cy="128" r="11" fill="#60A5FA"/>
+  <rect x="108" y="119" width="56" height="18" rx="9" fill="#94A3B8" fill-opacity="0.85"/>
+  <!-- Step 3 active glowing node + live wave bars -->
+  <circle cx="82" cy="168" r="15" fill="#6366F1" fill-opacity="0.28"/>
+  <circle cx="82" cy="168" r="10" fill="#818CF8"/>
+  <rect x="108" y="159" width="12" height="18" rx="6" fill="#38BDF8"/>
+  <rect x="128" y="153" width="12" height="30" rx="6" fill="#60A5FA"/>
+  <rect x="148" y="161" width="12" height="14" rx="6" fill="#818CF8"/>
+  <rect x="168" y="156" width="12" height="24" rx="6" fill="#38BDF8"/>
+</svg>

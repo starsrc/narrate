@@ -1,0 +1,12 @@
+{
+  "name": "narrate",
+  "displayName": "Narrate",
+  "version": "1.0.0",
+  "description": "Turn silent tool execution into concise, real-time step-by-step verbal updates so you can follow the agent's thought process as it works.",
+  "logo": "assets/logo.svg",
+  "suggestedPrompts": [
+    "/narrate Implement Redis-backed sliding-window rate limiting for the upload endpoint and add unit tests",
+    "/narrate Diagnose why the authentication middleware drops the session cookie on token refresh",
+    "/narrate Refactor the synchronous CSV export endpoint into an async background job with progress polling"
+  ]
+}
